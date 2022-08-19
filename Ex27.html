@@ -1,0 +1,59 @@
+<!--Example on div with grid grid is nothing but row and column  display:grid
+grid-template-columns = no of column to diaplay(width of column)-->
+!DOCTYPE html>
+<html>
+    <head>
+        <title>Ex26</title>
+        <link rel="icon" href="./image/bullet.jpg"/>
+        <style>
+            #main-div{
+                display: grid;
+                /*flex-wrap:wrap;*/
+                /*flex-direction:column-reverse;*/
+                grid-template-columns: auto auto auto  auto auto;
+                gap: 10px;
+
+            }
+            .sub-div1{
+
+                background-color: #ff9233;
+
+            }
+            .sub-div2{
+                
+                background-color: rgb(23, 41, 45);
+            }
+            .sub-div3{
+                background-color: blueviolet;
+                
+            }
+            .sub-div4{
+                background-color: #f00923;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Demo on the flex hori/veri</h1>
+        <div id="main-div"> <!--main block-->
+            <div class="sub-div1">
+               <h1> sumsang</h1>
+            </div>
+            <div class="sub-div2">
+                <h1>Apple</h1>
+            </div>
+            <div class="sub-div3">
+                <h1>Nokia</h1>
+            </div>
+            <div class="sub-div4">
+                <h1>Infinix</h1>
+            </div>
+            <div class="sub-div1">
+                <h1>Redmi</h1>
+            </div>
+            <div class="sub-div2">
+                <h1>Realme</h1>
+            </div>
+            </div>
+    </body>
+</html>
